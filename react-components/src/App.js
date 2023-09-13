@@ -1,14 +1,16 @@
 import './App.css';
-import FunctionalGreeting from "./components/FunctionalGreeting";
-import StatefulGreeting from "./components/StatefulGreeting";
-import HooksCounter from "./components/HooksCounter";
+import LifeCyclesCDM from './components/LifeCyclesCDM';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
+
+
 
 function App() {
   return (
     <div className="App">
-      <FunctionalGreeting name="John" />
-      {/* <StatefulGreeting name="Anna" /> */}
-      {/* <HooksCounter name="Mike" /> */}
+      {/* <LifeCyclesCDM /> */}
+    {/* <LifeCyclesCDU /> */}
+    <LifeCyclesCWU />
     </div>
   );
 }
